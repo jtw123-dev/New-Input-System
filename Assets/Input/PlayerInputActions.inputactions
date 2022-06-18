@@ -1,0 +1,71 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "67e2e0aa-9271-4623-9ef3-bca2987cde6e",
+            "actions": [
+                {
+                    "name": "Jumping",
+                    "type": "Button",
+                    "id": "2bcb9e42-30d9-4cb5-91c2-cc23788f0bed",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "HighJumping",
+                    "type": "Button",
+                    "id": "80b303a9-4aaa-4f4b-969d-deb6df794e49",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MidJump",
+                    "type": "Button",
+                    "id": "85bffd9c-c7c6-42d7-b09f-24a9a5a9efe9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3b694083-0d4e-4f67-870a-23cdf4d1d083",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jumping",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2785008a-fa83-4a61-b6be-f43b02932f78",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Hold(duration=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HighJumping",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3027a396-a85c-4dfc-8e8c-a4d5a3a97077",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Hold(duration=0.5)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MidJump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
